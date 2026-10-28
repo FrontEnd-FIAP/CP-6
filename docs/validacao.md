@@ -44,8 +44,20 @@ src/index.css:1 - ✓ pass
 
 Verificados: semântica, rótulos de formulário, aria-live, dimensões e textos alternativos de imagens, foco, estados vazios, preferência por movimento reduzido, moeda/data via Intl e parâmetros de URL para filtros e simulação. Isto é uma revisão direcionada; não equivale a certificação de acessibilidade.
 
-## Situação do GitHub
+## Publicação e fluxo no GitHub
 
-O repositório FrontEnd-FIAP/CP-6 está público na organização informada. A conexão permitiu leitura, mas as tentativas de escrita retornaram 403, `Resource not accessible by integration`. O Git local também encontrou uma restrição de acesso ao gerenciador de credenciais do Windows. Nenhuma credencial foi salva nos arquivos do projeto.
+O bloqueio de escrita foi resolvido após a autorização da integração na organização FrontEnd-FIAP. O projeto foi publicado no repositório público [FrontEnd-FIAP/CP-6](https://github.com/FrontEnd-FIAP/CP-6).
 
-Os commits das tarefas existem localmente. Enquanto o acesso não for liberado, a criação de PRs e a publicação da versão final em main no GitHub permanecem pendentes. A entrega não deve ser considerada integralmente concluída antes dessa etapa.
+| Tarefa                           | Commits de implementação e validação           | PR para dev                                        |
+| -------------------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| Configuração e estrutura         | 3                                              | [#1](https://github.com/FrontEnd-FIAP/CP-6/pull/1) |
+| Páginas e componentes            | 3                                              | [#2](https://github.com/FrontEnd-FIAP/CP-6/pull/2) |
+| Filtros, simulador e verificação | 3, mais atualização da documentação de entrega | [#3](https://github.com/FrontEnd-FIAP/CP-6/pull/3) |
+
+Integração da entrega em main: [PR #4, dev → main](https://github.com/FrontEnd-FIAP/CP-6/pull/4). O estado e os resultados dos checks são verificáveis nos próprios PRs e na [página do GitHub Actions](https://github.com/FrontEnd-FIAP/CP-6/actions).
+
+As revisões individuais assistidas estão registradas como comentários de revisão. Não foi simulada aprovação por outro integrante. Os merges preservam os commits das tarefas, sem squash.
+
+Os conteúdos foram publicados preservando cada alteração dos commits locais. Os hashes de commits remotos diferem porque a publicação ocorreu pela API conectada; as árvores de arquivos foram comparadas com as versões locais verificadas.
+
+O arquivo integrante.txt contém o nome completo, RM e endereço do repositório. O envio do arquivo ao Teams deve ser realizado pelo aluno.

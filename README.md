@@ -83,7 +83,12 @@ Trabalho individual. Todas as tarefas são atribuídas a Eduardo. Proposta em `d
 | Páginas e componentes            | codex/paginas-componentes | dev     | 3               |
 | Filtros, simulador e verificação | codex/filtros-simulador   | dev     | 3               |
 
-A revisão individual deve ser registrada nos PRs, sem simular aprovação por outro participante. Merges sem squash preservam os commits. A integração final de `dev` deve chegar a `main`.
+A revisão individual foi registrada nos PRs, sem simular aprovação por outro participante. Os merges preservam os commits, sem squash.
+
+- [PR #1: configuração](https://github.com/FrontEnd-FIAP/CP-6/pull/1)
+- [PR #2: páginas e componentes](https://github.com/FrontEnd-FIAP/CP-6/pull/2)
+- [PR #3: filtros e simulador](https://github.com/FrontEnd-FIAP/CP-6/pull/3)
+- [PR #4: integração de dev em main](https://github.com/FrontEnd-FIAP/CP-6/pull/4)
 
 ## Imagens e referências
 
@@ -100,4 +105,4 @@ Documentação: [React](https://react.dev/), [Vite](https://vite.dev/guide/), [T
 
 ## Entrega
 
-O arquivo `integrante.txt`, na raiz, contém nome, RM e endereço do repositório para o envio ao Teams. Confira o relatório em `docs/validacao.md` e o histórico do GitHub para o estado da integração remota.
+O arquivo `integrante.txt`, na raiz, contém nome, RM e endereço do repositório público para o envio ao Teams. Confira os resultados em `docs/validacao.md` e os checks nos PRs. A versão de entrega fica na branch `main`.
