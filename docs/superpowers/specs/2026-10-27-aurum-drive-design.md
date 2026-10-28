@@ -50,7 +50,7 @@ Layout responsivo para celular e desktop, navegação por teclado, foco visível
 
 O repositório foi verificado como público, dentro da organização FrontEnd-FIAP, vazio e com permissão de escrita informada pela conexão.
 
-Três tarefas: configuração e estrutura; páginas e componentes; filtros, simulador e verificação. Cada tarefa terá branch com prefixo `codex/`, no mínimo três commits semânticos com alterações reais e PR para `dev`. Criar e enviar `main` e `dev` ao GitHub. Revisar e integrar os PRs preservando os commits; depois integrar `dev` em `main` por PR.
+Três tarefas: configuração e estrutura; páginas e componentes; filtros, simulador e verificação. Cada tarefa terá branch com nome neutro, sem referência a IA, no mínimo três commits semânticos com alterações reais e PR para `dev`. Criar e enviar `main` e `dev` ao GitHub. Revisar e integrar os PRs preservando os commits; depois integrar `dev` em `main` por PR.
 
 Registrar a revisão técnica com transparência, sem fingir aprovação por outro integrante. Não solicitar revisão a terceiros. Como o autor não pode aprovar formalmente o próprio PR, documentar a validação individual pelos resultados dos checks.
 
