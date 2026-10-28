@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <img
-            src="/images/porsche.webp"
+            src={cars[0].image}
             alt="Porsche 911 branco em movimento por uma estrada entre colinas"
             width="1400"
             height="900"
