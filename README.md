@@ -77,11 +77,11 @@ O servidor Vite atende diretamente `/carros`. Uma futura hospedagem estática co
 
 Trabalho individual. Todas as tarefas são atribuídas a Eduardo. Proposta em `docs/superpowers/specs/` e plano em `docs/plans/`.
 
-| Tarefa                           | Branch                    | Destino | Commits mínimos |
-| -------------------------------- | ------------------------- | ------- | --------------- |
-| Configuração e estrutura         | codex/configuracao        | dev     | 3               |
-| Páginas e componentes            | codex/paginas-componentes | dev     | 3               |
-| Filtros, simulador e verificação | codex/filtros-simulador   | dev     | 3               |
+| Tarefa                           | Branch              | Destino | Commits mínimos |
+| -------------------------------- | ------------------- | ------- | --------------- |
+| Configuração e estrutura         | configuracao        | dev     | 3               |
+| Páginas e componentes            | paginas-componentes | dev     | 3               |
+| Filtros, simulador e verificação | filtros-simulador   | dev     | 3               |
 
 A revisão individual foi registrada nos PRs, sem simular aprovação por outro participante. Os merges preservam os commits, sem squash.
 
