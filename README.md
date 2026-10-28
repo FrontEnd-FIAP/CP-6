@@ -17,7 +17,7 @@ npm ci
 npm run dev
 ```
 
-Abra a URL exibida pelo Vite, normalmente http://127.0.0.1:5173/. No PowerShell, se a política bloquear o comando `npm`, utilize `npm.cmd` nos comandos acima.
+Abra a URL exibida pelo Vite, normalmente http://127.0.0.1:5173/CP-6/. No PowerShell, se a política bloquear o comando `npm`, utilize `npm.cmd` nos comandos acima.
 
 ```sh
 npm test          # testes de cálculo, datas e filtros
@@ -71,7 +71,17 @@ Ao alterar veículo ou datas, o orçamento anterior deixa de ser exibido até um
 
 Esta é uma simulação acadêmica: veículos, características e valores são dados de demonstração. Não realiza reservas, pagamentos ou consultas de disponibilidade. Não inclui backend, autenticação, seguros, taxas ou caução.
 
-O servidor Vite atende diretamente `/carros`. Uma futura hospedagem estática com BrowserRouter precisará redirecionar as rotas para `index.html`; nenhum deploy foi solicitado nesta entrega.
+## GitHub Pages
+
+Site: https://frontend-fiap.github.io/CP-6/
+
+A base do Vite é `/CP-6/`. As rotas usam HashRouter, por exemplo `/CP-6/#/carros`, para permitir acesso direto e atualização da página no GitHub Pages. Links de seções e filtros continuam funcionando.
+
+O workflow `.github/workflows/pages.yml` instala as dependências, executa os testes, compila e valida os arquivos de `dist/` antes de publicá-los. Cada atualização em `main` inicia uma nova publicação.
+
+Em Settings → Pages, a origem de publicação deve ser **GitHub Actions**. Publicar diretamente os arquivos-fonte da branch deixa o site em branco, pois JSX precisa ser compilado pelo Vite.
+
+`npm run build` também verifica se o HTML publicado aponta para JavaScript/CSS compilados na base correta e se as seis imagens estão disponíveis. `npm run preview` permite conferir essa versão em `/CP-6/`.
 
 ## Versionamento
 
