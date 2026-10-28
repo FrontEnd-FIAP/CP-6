@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter, Link, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
@@ -23,9 +23,16 @@ function RouteEffects() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <RouteEffects />
-      <a className="skip-link" href="#conteudo">
+      <a
+        className="skip-link"
+        href="#conteudo"
+        onClick={(event) => {
+          event.preventDefault();
+          document.getElementById('conteudo')?.focus();
+        }}
+      >
         Pular para o conteúdo
       </a>
       <Navbar />
@@ -52,6 +59,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
