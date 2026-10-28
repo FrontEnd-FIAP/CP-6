@@ -5,7 +5,7 @@ Proposta aprovada por Eduardo em 27/10/2026. Plano registrado diretamente, confo
 ## Tarefa 1 - configuração e estrutura
 
 Responsável: Eduardo Bechara Medeiros Craveiro, RM 571081.
-Branch: codex/configuracao. Destino: dev.
+Branch: configuracao. Destino: dev.
 
 1. Configurar React e Vite, HTML e entrada da aplicação.
 2. Integrar Tailwind e instalar dependências com lockfile.
@@ -15,7 +15,7 @@ Branch: codex/configuracao. Destino: dev.
 ## Tarefa 2 - páginas e componentes
 
 Responsável: Eduardo Bechara Medeiros Craveiro, RM 571081.
-Branch: codex/paginas-componentes. Destino: dev.
+Branch: paginas-componentes. Destino: dev.
 
 1. Adicionar dados demonstrativos e imagens locais com fontes.
 2. Implementar Navbar, Footer e Card, Home e catálogo.
@@ -25,7 +25,7 @@ Branch: codex/paginas-componentes. Destino: dev.
 ## Tarefa 3 - filtros, simulador e verificação
 
 Responsável: Eduardo Bechara Medeiros Craveiro, RM 571081.
-Branch: codex/filtros-simulador. Destino: dev.
+Branch: filtros-simulador. Destino: dev.
 
 1. Implementar filtros com estado na URL e seleção de veículo.
 2. Implementar cálculo por datas civis, validação e testes relevantes.
