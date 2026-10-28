@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@theme {
+  --color-forest: #153b31;
+  --color-cream: #f5f3ed;
+  --color-gold: #b99a60;
+}
+body { margin: 0; font-family: Arial, sans-serif; background: var(--color-cream); color: var(--color-forest); }
