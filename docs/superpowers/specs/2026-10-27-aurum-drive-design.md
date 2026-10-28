@@ -73,4 +73,4 @@ O assistente escolherá modelos da frota, imagens com referências verificáveis
 
 ## Estado
 
-Abordagem 2 escolhida. Proposta pendente de aprovação antes da implementação, conforme a habilidade de brainstorming solicitada. A proposta será incluída na documentação versionada do repositório durante a execução.
+Abordagem 2 e proposta aprovadas por Eduardo em 27/10/2026. Implementação autorizada; estilo visual e elaboração direta do plano também aprovados.
